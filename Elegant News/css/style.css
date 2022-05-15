@@ -1,0 +1,234 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+.head {
+    width: 100%;
+    
+}
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.head-top form {
+    display: flex;
+    justify-content: space-between;
+}
+.head-top h1 {
+    font-family: "Segoe Print";
+}
+.head-top h1>a {
+    color: #3c3c3c;
+}
+.head-top h1>a:active {
+    color:rgb(88, 88, 88)
+}
+.head-top h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.head-top h3>a {
+    color: #3c3c3c;
+}
+.head-top h3>a:active {
+    color:rgb(88, 88, 88)
+}
+/*поиск*/
+
+
+/*поиск*/
+
+.head-menu {
+    background-color: #ece9e9;
+    height: 43px;
+    border-style: solid ;
+    border-color: #3870a2;
+    border-radius: 5px;
+}
+
+.head-menu ul {
+    /* display: flex;   
+    padding: 0; */
+}
+.head-menu li {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-menu a:hover {
+    color: blue;
+}
+.head-menu a:active {
+    color:gray;
+}
+.head-slide img {
+    width: 100%;
+}
+
+
+/*Content*/
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content1 img {
+    width: 250px;
+    height:250px;
+
+ }
+ .box1 {
+    border-style: solid;
+    border-color: #3870a2;
+ }
+ .box1 h1 {
+     font-size: 25px;
+     text-align: center;
+     color: #4c6fc0;
+ }
+ .box1 h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+.box2 {
+    border-style: solid;
+    border-color: #3870a2;
+}
+.box2 h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #4c6fc0;
+}
+ .box2 h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+.box3 {
+    border-style: solid;
+    border-color: #3870a2;
+}
+.box3 h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #4c6fc0;
+}
+.box3 h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+.box4 {
+    border-style: solid;
+    border-color: #3870a2;
+}
+.box4 h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #4c6fc0;
+}
+
+.box4 h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+
+
+
+/*Navigation*/
+
+
+
+.paginator {
+    width: 280px;
+    padding: 10px;
+    margin: 30px auto;
+    white-space: nowrap;
+    background: #ecf0f1;
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    background: #95a5a6;
+}
+
+.paginator .prev {
+    text-indent: -1000px;
+    margin-right: 20px;
+    background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
+    background-repeat :no-repeat ;
+    background-position: 0px 0px;
+}
+
+.paginator .next {
+    text-indent: -1000px;
+    margin-left: 20px;
+    background-image: url("https://htmlacademy.ru/assets/course14/arrows.png");
+    background-repeat :no-repeat ;
+    background-position: 0px -40px;
+}
+.paginator .current {
+    background-color: #16a085;
+}
+
+.paginator .disabled {
+    opacity: 0.3;
+}
+
+.paginator a:hover {
+    background-color: #2ecc71;
+}
+
+
+.app-list {
+    display: flex;
+    padding: 0;
+}
+
+.app-list__item {
+    position: relative;
+}
+
+.app-list__item:hover .app-list__child {
+    display: block;
+}
+
+.app-list__child {
+    position: absolute;
+    display: none;
+    left: 0;
+    bottom: -30px;
+    border: 1px solid black;
+}

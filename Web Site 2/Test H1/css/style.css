@@ -1,0 +1,138 @@
+body {
+    background-color: ffffff;
+    width: 100%;
+    margin:0;
+}
+
+.container-fluid {
+    width: 100%;
+    background-image:url(../img/head.jpg);
+}
+
+.container { 
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.head {
+    padding-bottom: 100px;
+}
+.title {
+    padding: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar {
+    display:flex;
+    flex-direction: column;
+}
+
+.toolbar-child {
+    display: flex;
+}
+.toolbar img {
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 256; /*убираем левый отступ, равный 40px*/
+}
+.toolbar ul { 
+    display: flex;
+    padding-left: 13; /*убираем левый отступ, равный 40px*/
+}
+.toolbar li {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 57; /*убираем левый отступ, равный 40px*/
+}
+.toolbar a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+.texthead {
+    padding-left: 31px;
+    
+}
+.burgerwek {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.bordertext {
+    border: 1px dashed #3d2514; /* Толщина рамки в пикселах,
+    тип границы (в данном случае сплошная линия) и
+    цвет линии */
+    padding: 5px; /* Расстояние от текста до рамки */
+    width: 290px;
+    font-size: 11px;
+}
+
+.burgertext {
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+.burgertext img {
+    width: 395px;
+    
+}
+.weektext img {
+    width: 180px;
+}
+
+.burger-parent {
+    width: 700px;
+    height: 600px;
+}
+
+.burger {
+    width: 100%;
+    height: 100%;
+}
+
+.burger img {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #c9c9c9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.box>span {
+    align-self: center;
+}
+
+.banners {
+    display: flex;
+    height: 800px;
+    margin: 100px 0;
+    gap: 20px;
+}
+
+
+.banner-1 {
+    width: 50%;
+    height: 50%;
+}
+
+.banner-container {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-2 {
+    width: 100%;
+    height: 50%;
+}
+
+.banner-3 {
+    width: 100%;
+    height: 50%;
+}
